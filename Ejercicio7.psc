@@ -7,7 +7,7 @@ Algoritmo Ejercicio7
 	
 	Para i <- 1 Hasta 15 Con Paso 1 Hacer
 		
-		numAleatorio = 0 + Azar(36) + 1
+		numAleatorio = 0 + Azar(36) 
 		Escribir numAleatorio
 		
 		
@@ -21,6 +21,8 @@ Algoritmo Ejercicio7
 				pcjPar = (Npar*100) / total
 			SiNo
 				
+				NImpar = NImpar + 1
+				pcjImpar =(NImpar* 100) /total
 			Fin Si
 			
 		Fin Si
